@@ -1,21 +1,12 @@
-name: "reverse"
-
+name: reverse
 on:
-
-	push:
-
-  	branches: [main]
-
+  push: null
+  branches:
+    - main
 jobs:
-
-	deployment:
-
-  	runs-on: windows-latest
-
-    steps:
-
+  deployment: null
+  runs-on: windows-latest
+  steps:
     - uses: actions/checkout@v2
-
     - name: Say Hello!
-
-    run: echo "Hello there!"
+  run: echo "Hello there!"
