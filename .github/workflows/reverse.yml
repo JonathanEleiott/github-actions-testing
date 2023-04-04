@@ -3,8 +3,8 @@ on:
   branches:
     - main
 jobs:
-  deployment: null
-  runs-on: windows-latest
+  deployment:
+  runs-on: ubuntu-latest
   steps:
     - uses: actions/checkout@v2
     - name: Say Hello!
