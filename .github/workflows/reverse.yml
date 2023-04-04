@@ -1,7 +1,8 @@
 name: reverse
 on:
-  branches:
-    - main
+  push:
+    branches:
+      - main
 jobs:
   deployment:
   runs-on: ubuntu-latest
