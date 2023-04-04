@@ -1,4 +1,3 @@
-runs-on: ubuntu-latest
 name: reverse
 on: [push]
 jobs:
