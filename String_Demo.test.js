@@ -3,7 +3,7 @@ const reverseString = require('./String_Demo');
 describe("Calculator tests", () => {
 
 test('reverseString reverses a string worked correctly', () => {
-  expect(reverseString('hello')).toBe('olleh');
+  expect(false).toBe(true);
 });
 
 test('reverseString reverses a string with spaces worked correctly', () => {
